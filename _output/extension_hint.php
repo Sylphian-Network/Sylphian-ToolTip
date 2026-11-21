@@ -10,9 +10,5 @@
 
 namespace Sylphian\ToolTip\XF\Pub\Controller
 {
-	use XF\Pub\Controller\MemberController;
-
-	class XFCP_MemberController extends MemberController
-	{
-	}
+	class XFCP_MemberController extends \XF\Pub\Controller\MemberController {}
 }
